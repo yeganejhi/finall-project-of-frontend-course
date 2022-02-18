@@ -1,0 +1,128 @@
+.my-carousel p,h3 {
+    color: rgb(16, 75, 16) !important;
+}
+
+.main-box {
+    background-color: black;
+    color: white;
+}
+.fifi {
+    border: 1px solid black;
+}
+.SecondSideCard {
+    background-color: orange !important;
+}
+body {
+    direction: rtl;
+}
+.my-carousel img {
+    height: 370px !important;
+}
+.carousel-control-next,.carousel-control-prev {
+    display: none !important;
+}
+
+.carousel-indicators [data-bs-target] {
+    height: 20px !important;
+    background-color: rgb(20, 16, 16) !important;
+    
+    
+}
+.carousel-indicators [data-bs-target]:active {
+   background-color: green !important;
+    
+}
+.carousel-indicators {
+    text-align: start !important;
+    right: -76% !important;
+    margin-bottom: 8% !important;
+}
+.cap {
+    text-align: start !important;
+    right: 8% !important;
+    margin-bottom: 7% !important;
+    
+}
+
+.more-btn {
+    margin-right: 180px;
+    border-radius: 18px !important;
+    padding: 2px 23px !important;
+    text-align: center !important;
+}
+.CardgpHeader {
+    background-color: #ff0000 !important;
+}
+.li {
+    background-color: rgb(20, 83, 36) !important;
+    margin-bottom: -8px !important;
+}
+.li h4,h6 {
+    color: #ffffff !important;
+}
+.list-group {
+    background-color: rgb(17, 61, 17) !important;
+    
+}
+.list-group-item {
+    background-color: rgb(17, 61, 17) !important;
+    color: #ffffff !important;
+     border: none !important;
+}
+.hrItem {
+    width: 327px !important;
+    color: aliceblue !important;
+    margin: 0 auto !important;
+}
+.list-group h3 {
+    padding-right: 12px !important;
+    color: #ffffff !important;
+
+}
+.main-text {
+    border:1px solid rgba(71, 68, 68, 0.11) !important;
+}
+.main-text p {
+    padding-right: 15px !important;
+}
+.badge {
+    width: 100px !important;
+    height: 30px !important;
+    font-size: 13px !important;
+}
+ @media (max-width: 576px) { 
+     body {
+         overflow-x: hidden !important;
+     }
+    .carousel-indicators {
+        margin-right: 38% !important;
+        margin-bottom: 23% !important;
+     }
+     .more-btn {
+         margin-right: 100px !important;
+        
+     }
+     .cap {
+        text-align: start !important;
+        right: 7% !important;
+        margin-bottom: 22% !important;
+        
+    }
+
+ }
+ @media screen and (min-width: 577px) and (max-width: 992px)  {
+     body {
+         overflow-x: hidden !important;
+     }
+     .more-btn {
+         width: 50px;
+         margin-right: 0;
+     }
+     .row {
+         margin: 0 !important;
+     }
+     
+
+ }
+ 
+ 

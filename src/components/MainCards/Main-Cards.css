@@ -1,0 +1,16 @@
+
+.maincard  {
+    border: 1px solid rgba(95, 99, 95, 0.13) !important;
+}
+.smalldiv {
+    color: #ffa500 !important;
+    font-size: 20px !important;
+    font-weight: 200 !important;
+    background-color: #ffa500 !important;
+}
+.card-1 {
+    border: none !important;
+}
+.more-link span {
+    color: black !important;
+}

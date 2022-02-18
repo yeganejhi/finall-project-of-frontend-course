@@ -1,0 +1,73 @@
+.cardgp {
+    background-color: rgb(20, 83, 36);
+}
+.profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.costbtn {
+   /* margin-right: 5% !important;
+    background-color: rgb(24, 39, 24) !important;
+    border: none !important;
+    width: 100px !important; */
+    position: absolute;
+    width: 100px !important;
+    border: none !important;
+    background-color: rgb(24, 39, 24) !important;
+    left: 15px !important;
+    letter-spacing: 5px;
+    margin-bottom: 10px !important;
+}
+.Cardtextt {
+    position: relative;
+}
+.name-profile {
+    position: absolute;
+    right: 50px;
+    bottom: -5px;
+}
+.hr-footer {
+    width: 235px !important;
+}
+.price {
+    position: absolute;
+    left: 5%;
+    bottom: -55px;
+    color: rgb(255, 0, 0);
+    letter-spacing: 5px;
+    font-size: 15px;
+}
+.element {
+    color: red;
+    font-size: 50px;
+    position: absolute;
+    left: 48px;
+    bottom: -65px;
+    transform: rotate(75deg) !important;
+}
+.clock {
+    font-size: 20px !important;
+    margin-left: 3px !important;
+
+}
+.card-footer {
+    position: relative;
+    height: 60px;
+    border: none !important;
+}
+
+.stars {
+    font-size: 15px !important;
+    margin-right: 10px !important;
+}
+.text-mutedd {
+    position: absolute !important;
+    top: 15px !important;
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .card-group1 {
+        flex-direction: column !important;
+    }
+ }

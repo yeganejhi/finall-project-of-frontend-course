@@ -1,0 +1,14 @@
+.searchbox {
+    display: none !important;
+}
+.search-input {
+    border: none !important;
+    margin-left: 3px;
+}
+.search-btn {
+    background-color: rgb(193, 193, 218);
+    width: 50px;
+    border: none;
+
+    
+}

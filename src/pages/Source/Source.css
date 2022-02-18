@@ -1,0 +1,148 @@
+.secondbg {
+    background-image: url("conversation.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    
+}
+.yellowline {
+    width: 50px !important;
+    height: 5px !important;
+    color: #fbff00;
+
+}
+.thirdbox {
+    display: flex;  
+    flex-wrap: wrap;
+    background-color: rgb(95, 94, 32) !important;
+    color: white !important;
+}
+.basicCards{
+    background-color: rgb(95, 94, 32) !important;
+    border: none !important;
+}
+.sec1Header {
+    background-color: rgb(95, 94, 32) !important;
+    color: #ffffff;
+
+}
+.thirdbox h1{
+    color: #ffffff;
+}
+.card-bodySec1 {
+    color: #ffffff !important;
+}
+.card-text {
+    opacity: 0.8;
+}
+.card-text a {
+    color: white !important;
+    font-size: 13px !important;
+}
+.card-titlesec1 {
+    color: #ffffff !important;
+}
+.cardsgroup {
+    background-color: #ffa500;
+}
+
+.progressnumber {
+    text-align: center !important;
+    font-size: 50px !important;
+    opacity: 0.3;
+}
+.CardSecTitle {
+    text-align: center !important;
+}
+.mainpart {
+    background-color: rgba(116, 114, 97, 0.226);
+}
+.Graybgc{
+    background-color: rgba(116, 114, 97, 0) !important;
+    border: none !important;
+}
+.cardtext {
+    padding-right: 15%;
+}
+.firstcard {
+    background-color: rgb(226, 226, 65) !important;
+    color: #ffffff;
+}
+.btn-cards {
+    border-radius: 18px !important;
+    width: 140px;
+    background-color: #ffa500 !important;
+    color: #ffffff !important;
+    border: 1px solid #ffffff !important;
+}
+.cardimg {
+    height: 400px !important;
+}
+
+.btnDetails {
+    color: #ffa500 !important;
+    border-radius: 20px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+.card-img-o {
+    height: 280px !important;
+}
+.rightcard {
+    background-color: #ffa500 !important;
+}
+.title-cards {
+    color: aliceblue !important;
+    font-size: 18px;
+}
+.title-cards h2 {
+    color: aliceblue !important;
+}
+
+@media (max-width: 576px) { 
+   .auto {
+       margin: auto !important;
+       margin-bottom: 10px !important;
+    
+   }
+   .textalign{
+       text-align: center !important;
+   }
+   .title-cards {
+       text-align: center !important;
+   }
+   .btnDetails-Responsive {
+       margin-right: 26% !important;
+       width: 200px !important;
+       margin-top: 0 !important;
+   }
+   .cardtext {
+       padding-right: 0 !important;
+   }
+   .btn-cards {
+       margin-right: 100px !important;
+   }
+   .thirdbox {
+       flex-direction: row !important;
+   }
+   .row-1 {
+       display: block !important;
+   }
+   .rounded-start {
+       margin: auto !important;
+   }
+   
+ }
+ @media screen and (min-width: 577px) and (max-width: 992px) {
+    .row-1 {
+        display: block !important;
+    }
+    .btnDetails-Responsive {
+        margin-right: -20% !important;
+        width: 200px !important;
+    }
+    .cardtext {
+        padding-right: 15px !important;
+    }
+ }

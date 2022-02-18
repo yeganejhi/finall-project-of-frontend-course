@@ -1,0 +1,17 @@
+.title{
+    padding-top: 220px;
+}
+.apartSpan {
+    color: rgb(0, 0, 255)
+}
+.title .h1 {
+    font-weight: larger !important;
+    font-size: 40px !important;
+}
+.title button {
+    width: 100px;
+    border-radius: 20px;
+    color: chocolate;
+    padding: 5px 15px;
+    text-align: center;
+}
